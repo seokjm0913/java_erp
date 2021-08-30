@@ -87,5 +87,5 @@ drop user 'user_java_erp_teacher'@'localhost';
 
 GRANT all privileges 
    on java_erp.* 
-   TO 'user_java_erp_teacher'@'localhost' IDENTIFIED BY 'rootroot';
+   TO 'user_java_erp'@'localhost' IDENTIFIED BY 'rootroot';
 
