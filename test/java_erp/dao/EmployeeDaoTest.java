@@ -1,4 +1,4 @@
-package java_erp_teacher.dao;
+package java_erp.dao;
 
 import static org.junit.Assert.fail;
 
@@ -8,10 +8,10 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java_erp_teacher.dao.impl.EmployeeDaoImpl;
-import java_erp_teacher.dto.Department;
-import java_erp_teacher.dto.Employee;
-import java_erp_teacher.dto.Title;
+import java_erp.dao.impl.EmployeeDaoImpl;
+import java_erp.dto.Department;
+import java_erp.dto.Employee;
+import java_erp.dto.Title;
 
 public class EmployeeDaoTest {
 	private EmployeeDao dao = EmployeeDaoImpl.getInstance();

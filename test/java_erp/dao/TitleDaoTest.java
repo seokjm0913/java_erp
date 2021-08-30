@@ -1,4 +1,4 @@
-package java_erp_teacher.dao;
+package java_erp.dao;
 
 import static org.junit.Assert.fail;
 
@@ -11,8 +11,8 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
-import java_erp_teacher.dao.impl.TitleDaoImpl;
-import java_erp_teacher.dto.Title;
+import java_erp.dao.impl.TitleDaoImpl;
+import java_erp.dto.Title;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class TitleDaoTest {

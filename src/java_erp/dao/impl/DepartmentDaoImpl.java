@@ -1,4 +1,4 @@
-package java_erp_teacher.dao.impl;
+package java_erp.dao.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -6,9 +6,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import java_erp_teacher.dao.DepartmentDao;
-import java_erp_teacher.dto.Department;
-import java_erp_teacher.util.JdbcUtil;
+import java_erp.dao.DepartmentDao;
+import java_erp.dto.Department;
+import java_erp.util.JdbcUtil;
 
 /**
  * Impl은 무조건 Singleton Pattern 구현

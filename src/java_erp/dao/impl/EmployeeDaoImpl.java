@@ -1,4 +1,4 @@
-package java_erp_teacher.dao.impl;
+package java_erp.dao.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,11 +7,11 @@ import java.sql.SQLException;
 import java.sql.Types;
 import java.util.ArrayList;
 
-import java_erp_teacher.dao.EmployeeDao;
-import java_erp_teacher.dto.Department;
-import java_erp_teacher.dto.Employee;
-import java_erp_teacher.dto.Title;
-import java_erp_teacher.util.JdbcUtil;
+import java_erp.dao.EmployeeDao;
+import java_erp.dto.Department;
+import java_erp.dto.Employee;
+import java_erp.dto.Title;
+import java_erp.util.JdbcUtil;
 
 public class EmployeeDaoImpl implements EmployeeDao {
 	private static final EmployeeDaoImpl instance = new EmployeeDaoImpl();

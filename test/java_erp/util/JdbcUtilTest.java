@@ -1,4 +1,4 @@
-package java_erp_teacher.util;
+package java_erp.util;
 
 import java.sql.Connection;
 

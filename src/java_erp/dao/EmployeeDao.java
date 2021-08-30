@@ -1,8 +1,8 @@
-package java_erp_teacher.dao;
+package java_erp.dao;
 
 import java.util.ArrayList;
 
-import java_erp_teacher.dto.Employee;
+import java_erp.dto.Employee;
 
 public interface EmployeeDao {
 	ArrayList<Employee> selectEmployeeAll();

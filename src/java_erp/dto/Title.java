@@ -1,4 +1,4 @@
-package java_erp_teacher.dto;
+package java_erp.dto;
 
 public class Title {
 	private int tNo;

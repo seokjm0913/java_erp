@@ -1,8 +1,8 @@
-package java_erp_teacher.dao;
+package java_erp.dao;
 
 import java.util.ArrayList;
 
-import java_erp_teacher.dto.Title;
+import java_erp.dto.Title;
 
 public interface TitleDao {
 	ArrayList<Title> selectTitleByAll();

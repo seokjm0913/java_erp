@@ -1,8 +1,8 @@
-package java_erp_teacher;
+package java_erp;
 
-import java_erp_teacher.dto.Department;
-import java_erp_teacher.dto.Employee;
-import java_erp_teacher.dto.Title;
+import java_erp.dto.Department;
+import java_erp.dto.Employee;
+import java_erp.dto.Title;
 
 public class Main {
 
